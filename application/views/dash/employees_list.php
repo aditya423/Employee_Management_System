@@ -34,12 +34,12 @@ if(!$_SESSION['u_name']) {
   			<div class="col-lg-9 col-md-9" style="padding-top:30px;">
           <table class="table table-bordered">
             <tr>
-              <th style="background-color: #f8ff93;">ID</th>
-              <th style="background-color: #f8ff93;">Name</th>
-              <th style="background-color: #f8ff93;">Job</th>
-              <th style="background-color: #f8ff93;">Details</th>
-              <th style="background-color: #f8ff93;">Edit</th>
-              <th style="background-color: #f8ff93;">Delete</th>
+              <th style="background-color: #f8ff93; font-size:12px;">ID</th>
+              <th style="background-color: #f8ff93; font-size:12px;">Name</th>
+              <th style="background-color: #f8ff93; font-size:12px;">Job</th>
+              <th style="background-color: #f8ff93; font-size:12px;">Details</th>
+              <th style="background-color: #f8ff93; font-size:12px;">Edit</th>
+              <th style="background-color: #f8ff93; font-size:12px;">Delete</th>
             </tr>
             <?php
 
@@ -49,12 +49,12 @@ if(!$_SESSION['u_name']) {
             
 
             <tr>
-              <td><?php echo $employee->e_id; ?></td>
-              <td><?php echo $employee->e_name; ?></td>
-              <td><?php echo $employee->e_job; ?></td>
-              <td><a href="<?php echo site_url(); ?>employees/single_employee/<?php echo $employee->e_id; ?>" class="btn btn-info btn-xs btn-block" style="font-size: 12px;">Details</a></td>
-              <td><a href="<?php echo site_url(); ?>employees/update_employee/<?php echo $employee->e_id; ?>" class="btn btn-warning btn-xs btn-block" style="font-size: 12px;">Edit</a></td>
-              <td><a href="<?php echo site_url(); ?>employees/delete_employee/<?php echo $employee->e_id; ?>" class="btn btn-danger btn-xs btn-block" style="font-size: 12px;">Delete</a></td>
+              <td style="font-size:12px;"><?php echo $employee->e_id; ?></td>
+              <td style="font-size:12px;"><?php echo $employee->e_name; ?></td>
+              <td style="font-size:12px;"><?php echo $employee->e_job; ?></td>
+              <td style="font-size:12px;"><a href="<?php echo site_url(); ?>employees/single_employee/<?php echo $employee->e_id; ?>" class="btn btn-info btn-xs btn-block" style="font-size: 12px;">Details</a></td>
+              <td style="font-size:12px;"><a href="<?php echo site_url(); ?>employees/update_employee/<?php echo $employee->e_id; ?>" class="btn btn-warning btn-xs btn-block" style="font-size: 12px;">Edit</a></td>
+              <td style="font-size:12px;"><a href="<?php echo site_url(); ?>employees/delete_employee/<?php echo $employee->e_id; ?>" class="btn btn-danger btn-xs btn-block" style="font-size: 12px;">Delete</a></td>
             </tr>
 
             <?php }
