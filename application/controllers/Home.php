@@ -12,16 +12,12 @@ class Home extends CI_Controller {
 
 	public function index() 
 	{
-		$this->load->view('inc/header');
 		$this->load->view('home');
-		$this->load->view('inc/footer');
 	}
 
 	public function register()
 	{
-		$this->load->view('inc/header');
-		$this->load->view('register');
-		$this->load->view('inc/footer');	
+		$this->load->view('register');	
 	}
 
 	public function login_process() 
