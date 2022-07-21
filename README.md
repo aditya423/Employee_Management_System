@@ -17,4 +17,4 @@
    -- include $data in the function of controller
    -- access data in views using uri->segment()
 4. To take the data of the form
-   -- include form.open() and form.close() in views --> -->
+   -- include form.open() and form.close() in views --> 
