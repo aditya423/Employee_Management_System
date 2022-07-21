@@ -1,0 +1,93 @@
+.container {
+    background-color: #3480c1;
+}
+
+.row {
+    padding-top: 14%;
+}
+
+.panel-default {
+    margin-top: 9%; 
+    margin-bottom: 40%;
+}
+
+.panel-heading {
+    text-align: center; 
+    color: black; 
+    font-size: x-large; 
+    padding-top: 20px; 
+    padding-bottom: 20px;
+}
+
+.form-group1 {
+    padding-top:20px; 
+    padding-bottom:15px; 
+    padding-left: 15px; 
+    padding-right: 15px;
+}
+
+.form-group2 {
+    padding-bottom:15px; 
+    padding-left: 15px; 
+    padding-right: 15px;
+}
+
+.form-group3 {
+    padding-left: 15px; 
+    padding-right: 15px;
+}
+
+.btn-success {
+    padding-left: 15px; 
+    font-size: large; 
+    padding-right: 15px;
+}
+
+.btn-warning {
+    padding-left: 15px; 
+    font-size: large; 
+    padding-right: 15px;
+}
+
+@media screen and (max-width: 360px) {
+
+    .panel-default {
+        margin-top: 25%; 
+        margin-bottom: 48%;
+    }
+
+    .panel-heading {
+        font-size: large; 
+    }
+   
+    .btn-success {
+        padding-left: 15px; 
+        font-size: 15px;
+        padding-right: 15px;
+    }
+    
+    .btn-warning {
+        padding-left: 15px; 
+        font-size: 15px;
+        padding-right: 15px;
+    }
+    
+}
+
+@media screen and (max-width: 320px) {
+
+    .panel-default {
+        margin-top: 42%; 
+        margin-bottom: 67%;
+    }
+
+    .btn-success {
+        font-size: 12px;
+    }
+
+    .btn-warning {
+        font-size: 12px;
+        margin-top: 7px;
+    }
+    
+}
